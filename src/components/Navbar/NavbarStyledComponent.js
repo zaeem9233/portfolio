@@ -75,7 +75,6 @@ export const NavLink = styled.a`
 
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid #0077b5;
   justify-content: center;
   display: flex;
   align-items: center;
