@@ -64,6 +64,9 @@ const Skill = styled.div`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   border-radius: 16px;
   padding: 18px 36px;
+  :hover{
+    box-shadow: 0px 0px 10px #c0c0c0;
+  }
   @media (max-width: 768px) {
     max-width: 400px;
     padding: 10px 36px;
@@ -103,6 +106,9 @@ const SkillItem = styled.div`
   align-items: center;
   justify-content: center;
   gap: 8px;
+  :hover{
+    box-shadow: 0px 0px 5px #c9c9c9;
+  }
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -124,7 +130,7 @@ const Skills = () => {
     <Container id="skills">
       <Wrapper>
         <Title>Skills</Title>
-        <Desc>Here are some of my skills on which I have been working on for the past 2 years.
+        <Desc>Here are some of my skills on which I have been working on for the past 7 years.
         </Desc>
         <SkillsContainer>
           {skills.map((skill) => (
