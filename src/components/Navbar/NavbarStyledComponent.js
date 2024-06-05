@@ -41,7 +41,8 @@ export const NavLogo = styled(LinkR)`
 export const Span = styled.div`
     padding: 0 4px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
+    margin-left: 10px;
 `;
 export const NavItems = styled.ul`
     width: 100%;
@@ -74,13 +75,13 @@ export const NavLink = styled.a`
 
 
 export const GitHubButton = styled.a`
-  border: 1.8px solid ${({ theme }) => theme.primary};
+  border: 1.8px solid #0077b5;
   justify-content: center;
   display: flex;
   align-items: center;
   height: 70%;
   border-radius: 20px;
-  color: ${({ theme }) => theme.primary};
+  color: #0077b5;
   cursor: pointer;
   padding: 0 20px;
   font-weight: 500;
@@ -88,7 +89,7 @@ export const GitHubButton = styled.a`
   font-size: 16px;
   transition: all 0.6s ease-in-out;
     :hover {
-      background: ${({ theme }) => theme.primary};
+      background: #0077b5;
       color: ${({ theme }) => theme.white};     
     }
     @media screen and (max-width: 768px) { 

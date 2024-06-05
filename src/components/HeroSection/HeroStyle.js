@@ -100,7 +100,16 @@ export const Img = styled.img`
   max-height: 400px;
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
-
+  :hover{
+    box-shadow: 0px 0px 20px ${({ theme }) => theme.primary};
+    cursor: pointer;
+    transform: scale(1.01);
+    animation: scale-up 2s ease-in-out;
+  }
+  @keyframes scale-up {
+    from { transform: scale(1); } /* Start at original size */
+    to { transform: scale(1.1); } /* End at double size */
+  }
   @media (max-width: 768px) {
     max-width: 400px;
     max-height: 400px;

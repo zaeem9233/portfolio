@@ -5,6 +5,8 @@ import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
 import { useTheme } from 'styled-components';
+import NavBarIcon from '../../images/icon-2.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +16,7 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to='/'>
           <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+            <img src={NavBarIcon} /> <Span>Portfolio</Span>
           </a>
         </NavLogo>
         <MobileIcon>
@@ -30,7 +32,7 @@ const Navbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
+          <GitHubButton href={Bio.linkedin} target="_blank"><LinkedInIcon /> Linkedin Profile</GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
@@ -50,7 +52,7 @@ const Navbar = () => {
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
             }}>Education</MobileLink>
-            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
+            <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.linkedin} target="_blank"><LinkedInIcon /> Linkedin Profile</GitHubButton>
           </MobileMenu>
         }
       </NavbarContainer>
