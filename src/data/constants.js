@@ -87,6 +87,10 @@ export const skills = [
         name: "REST API's",
         image: require("../images/restapi.png"),
       },
+      {
+        name: "Redis",
+        image: require("../images/icons/redis-icon.png"),
+      },
     ]
   },
   {
@@ -116,6 +120,60 @@ export const skills = [
       }
     ],
   },
+  {
+    title: 'DevOps',
+    skills: [
+      {
+        name: "AWS",
+        image: require("../images/icons/aws-icon.png"),
+      },
+      {
+        name: "Google Cloud",
+        image: require("../images/icons/google-cloud-icon.png"),
+      },
+      {
+        name: "Apache",
+        image: require("../images/icons/apache-icon.png"),
+      },
+      {
+        name: "NGINX",
+        image: require("../images/icons/nginx-icon.png"),
+      },
+      {
+        name: "Redis",
+        image: require("../images/icons/redis-icon.png"),
+      },
+      {
+        name: "Docker",
+        image: require("../images/icons/docker-icon.png"),
+      },
+    ]
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "VS Code",
+        image: require("../images/icons/visual-studio-code-icon.png"),
+      },
+      {
+        name: "Git",
+        image: require("../images/icons/git-icon.png"),
+      },
+      {
+        name: "GitHub",
+        image: require("../images/icons/github-icon.png"),
+      },
+      {
+        name: "Postman",
+        image: require("../images/icons/postman-icon.png"),
+      },
+      {
+        name: "Figma",
+        image: require("../images/icons/figma-icon.png"),
+      },
+    ]
+  }
 ];
 
 export const experiences = [
@@ -141,7 +199,7 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     img: require("../images/az-care.png"),
     role: "Full Stack Developer",
     company: "AZ Care Ltd, London, UK",
@@ -159,7 +217,7 @@ export const experiences = [
     ],
   },
   {
-    id: 0,
+    id: 2,
     img: require('../images/ordnance.png'),
     role: "Full Stack Developer",
     company: "Ordnance College",
@@ -176,7 +234,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: require("../images/enigma.png"),
     role: "Website Developer",
     company: "Enigma Solutions of Technology, Lahore, Pakistan",
@@ -184,7 +242,7 @@ export const experiences = [
     desc: "Designed and developed responsive web applications using PHP and MySQL for various sectors, including e-commerce and business, featuring RESTful web services, AJAX calls, and a client-friendly CMS interface.",
   },
   {
-    id: 3,
+    id: 4,
     img: require("../images/green.png"),
     role: "Website Developer",
     company: "Green Finn Technologies, Multan, Pakistan",
@@ -211,6 +269,15 @@ export const education = [
     grade: "3.0/4.0 CGPA",
     desc: "Acquired knowledge in finance, accounting, marketing, and human resource management, encompassing various commerce-related subjects. Gained expertise in cost, financial, and general accounting. Received specialized training with a focus on money, banking, finance, and business laws.",
     degree: "Masters of Commerce",
+  },
+  {
+    id: 2,
+    img: require('../images/bzu.png'),
+    school: "Bahaudin Zikriya University, Multan",
+    date: "Sep 2010 - Aug 2012",
+    grade: "A grade",
+    desc: "Acquired knowledge in finance, accounting, marketing, and human resource management, encompassing various commerce-related subjects. Gained expertise in cost, financial, and general accounting. Received specialized training with a focus on money, banking, finance, and business laws.",
+    degree: "Bachelors of Commerce",
   },
 ];
 
