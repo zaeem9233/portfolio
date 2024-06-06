@@ -129,9 +129,6 @@ const Contact = () => {
   const form = useRef();
 
   const handleSubmit = (e) => {
-
-    console.log('sending meail');
-
     e.preventDefault();
     emailjs.sendForm('service_k5fhwr8', 'template_aaewxil', form.current, '8j-BdAXwqGV3JuO-F')
       .then((result) => {
