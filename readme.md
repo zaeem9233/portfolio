@@ -4,7 +4,7 @@ This project is a personal portfolio website created using React.js. It showcase
 
 ## Features
 
-- **Home Page**: An introduction to who I am and what I do.
+- **Home Section**: An introduction to who I am and what I do.
 - **Projects Section**: Displays a collection of my projects with descriptions and links to their respective repositories or live demos.
 - **Experience Section**: Lists my professional experience with details about the roles and responsibilities.
 - **Education Section**: Provides information about my educational background.
