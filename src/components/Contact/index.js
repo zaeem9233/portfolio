@@ -129,13 +129,17 @@ const Contact = () => {
   const form = useRef();
 
   const handleSubmit = (e) => {
+
+    console.log('sending meail');
+
     e.preventDefault();
-    emailjs.sendForm('service_tox7kqs', 'template_nv7k7mj', form.current, 'SybVGsYS52j2TfLbi')
+    emailjs.sendForm('service_k5fhwr8', 'template_aaewxil', form.current, '8j-BdAXwqGV3JuO-F')
       .then((result) => {
         setOpen(true);
+        console.log('email sent');
         form.current.reset();
-      }, (error) => {
-        console.log(error.text);
+        }, (error) => {
+          console.log(error.text);
       });
   }
 
@@ -150,13 +154,12 @@ const Contact = () => {
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
           open={open}
-          autoHideDuration={6000}
+          autoHideDuration={12000}
           onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
