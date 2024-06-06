@@ -13,7 +13,7 @@ export const Bio = {
     "https://drive.google.com/file/d/1W1cLvWjDPmTj_TZdOj356lkEwmayabM_/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/zaeem-software-developer/",
   twitter: "https://twitter.com/",
-  insta: "https://www.instagram.com/",
+  insta: "https://www.instagram.com/zaeem.ali.ramay/",
   facebook: "https://www.facebook.com/",
 };
 
