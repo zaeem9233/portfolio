@@ -7,8 +7,10 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import { education, experiences } from '../../data/constants';
 import EducationCard from '../Cards/EducationCard';
+import SchoolIcon from '@mui/icons-material/School';
 
 const Container = styled.div`
     display: flex;
@@ -89,13 +91,26 @@ const index = () => {
                     <Timeline>
                         {education.map((education,index) => (
                             <TimelineItem >
+                                
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                                     <EducationCard education={education}/>
                                 </TimelineContent>
+                                
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
+                                    <TimelineDot variant="outlined" color="secondary">
+                                        <SchoolIcon sx={{
+                                            color: "#F2F3F499"
+                                        }} />
+                                    </TimelineDot>
                                     {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
+
+                                <TimelineOppositeContent sx={{ 
+                                    color: "#F2F3F499",
+                                    marginTop: "12px",
+                                    }}>
+                                    {education.dateComplete}
+                                </TimelineOppositeContent>
                             </TimelineItem>
                         ))}
                     </Timeline>

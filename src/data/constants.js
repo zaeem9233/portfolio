@@ -183,6 +183,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "IELTS Helper Ltd.",
     date: "Jan 2022 - Mar 2024",
+    dateJoin: 'Jan 2022',
     desc: "Developed a comprehensive IELTS Helper LMS with a user-friendly interface, robust progress tracking, automated notifications, and an AI-based tool for enhanced writing evaluation.",
     skills: [
       "Tailwind CSS",
@@ -204,6 +205,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "AZ Care Ltd, London, UK",
     date: "Mar 2020 - Dec 2022",
+    dateJoin: 'Mar 2020',
     desc: "Developed an ERP solution with modules for CRM, job and employee management, reporting, and online training, enhancing staff efficiency in handling assignments, employee data, and financial records, while aligning with organizational goals and ensuring secure access and activity logging.",
     skills: [
       "JQuery",
@@ -222,6 +224,7 @@ export const experiences = [
     role: "Full Stack Developer",
     company: "Ordnance College",
     date: "Aug 2018 - Mar 2023",
+    dateJoin: 'Aug 2018',
     desc: "Developed AEODPS, a secure content management system with robust encryption and customizable access levels, and a tailored LMS with an efficient assessment system, customizable roles, and an interactive online assessment platform.",
     skills: [
       "Vue JS",
@@ -239,6 +242,7 @@ export const experiences = [
     role: "Website Developer",
     company: "Enigma Solutions of Technology, Lahore, Pakistan",
     date: "Oct 2017 - Jul 2018",
+    dateJoin: 'Oct 2017',
     desc: "Designed and developed responsive web applications using PHP and MySQL for various sectors, including e-commerce and business, featuring RESTful web services, AJAX calls, and a client-friendly CMS interface.",
   },
   {
@@ -247,6 +251,7 @@ export const experiences = [
     role: "Website Developer",
     company: "Green Finn Technologies, Multan, Pakistan",
     date: "Mar 2017 - Sep 2017",
+    dateJoin: 'Mar 2017',
     desc: "Contributed actively to Green Finn Technologies in Web Development, gaining diverse technology experience. Utilized HTML, CSS, JavaScript, AJAX, and jQuery for visually appealing front-end features, enhancing user engagement. Proficient in full-stack development, employing PHP and MySQL, engaging in the software development life cycle, collaborating on troubleshooting and optimization, and staying updated on industry trends.",
   },
 ];
@@ -257,6 +262,7 @@ export const education = [
     img: require('../images/bzu.png'),
     school: "Bahaudin Zikriya University, Multan",
     date: "Sep 2015 - Aug 2017",
+    dateComplete: "Aug 2017",
     grade: "3.6/4.0 CGPA",
     desc: "Acquired proficiency in C++, Java, web technologies, and databases, successfully designed a web-based Hospital Management System, created C++ games, and earned third place in a coding and game competition.",
     degree: "Masters in Information Technology",
@@ -266,6 +272,7 @@ export const education = [
     img: require('../images/bzu.png'),
     school: "Bahaudin Zikriya University, Multan",
     date: "Sep 2013 - Aug 2015",
+    dateComplete: "Aug 2015",
     grade: "3.0/4.0 CGPA",
     desc: "Acquired knowledge in finance, accounting, marketing, and human resource management, encompassing various commerce-related subjects. Gained expertise in cost, financial, and general accounting. Received specialized training with a focus on money, banking, finance, and business laws.",
     degree: "Masters of Commerce",
@@ -275,6 +282,7 @@ export const education = [
     img: require('../images/bzu.png'),
     school: "Bahaudin Zikriya University, Multan",
     date: "Sep 2010 - Aug 2012",
+    dateComplete: "Aug 2012",
     grade: "A grade",
     desc: "Acquired knowledge in finance, accounting, marketing, and human resource management, encompassing various commerce-related subjects. Gained expertise in cost, financial, and general accounting. Received specialized training with a focus on money, banking, finance, and business laws.",
     degree: "Bachelors of Commerce",

@@ -7,8 +7,11 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
+import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import ExperienceCard from '../Cards/ExperienceCard';
 import { experiences } from '../../data/constants';
+import WorkIcon from '@mui/icons-material/Devices';
+import LaptopMacIcon from '@mui/icons-material/LaptopMac';
 
 const Container = styled.div`
     display: flex;
@@ -86,8 +89,16 @@ const index = () => {
                     <Timeline>
                         {experiences.map((experience,index) => (
                             <TimelineItem>
+                                <TimelineOppositeContent sx={{ 
+                                    color: "#F2F3F499",
+                                    marginTop: "12px",
+                                    }}>
+                                    {experience.dateJoin}
+                                </TimelineOppositeContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
+                                    <TimelineDot variant="outlined" color="secondary">
+                                        <LaptopMacIcon sx={{ color: "#F2F3F499" }} />
+                                    </TimelineDot>
                                     {index !== experiences.length - 1 && <TimelineConnector style={{ background: '#854CE6' }} />}
                                 </TimelineSeparator>
                                 <TimelineContent sx={{ py: '12px', px: 2 }}>
