@@ -14,7 +14,6 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
-import TimelineNew from "./components/TimelineNew"
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
