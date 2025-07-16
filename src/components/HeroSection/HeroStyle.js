@@ -57,6 +57,7 @@ export const HeroInnerContainer = styled.div`
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+  text-align: justify;
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -201,12 +202,12 @@ export const ResumeButton = styled.a`
     transition: all 0.4s ease-in-out;
     box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-    }    
-    
-    
+    }
+
+
     @media (max-width: 640px) {
         padding: 12px 0;
         font-size: 18px;
-    } 
+    }
 
 `;
